@@ -1,0 +1,48 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Test cache
+.cache/
+.tox/
+
+# Package files
+*.egg-info/
+.eggs/
+*.egg
+*.log
+*.pot
+*.pyc
+.Python
+
+
+# Env Files
+.env
+*.env
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Redis dumps
+dump.rdb
+
+# Uvicorn logs
+*.log
