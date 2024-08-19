@@ -16,7 +16,7 @@ This project is a FastAPI-based web service that allows users to upload PDF docu
 2. [Environment Setup](#environment-setup)
 3. [API Endpoints](#api-endpoints)
 4. [Usage Example](#usage-example)
-5. [Configuring Constants for Gemini API Responses](#configuring-constants-for-gemini-api-responses)
+5. [Configuration for Gemini API Responses](#configuration-for-gemini-api-responses)
 6. [Testing](#testing)
 
 ## Installation
