@@ -103,8 +103,8 @@ or basically run the `main.py` file in root directory.
 2. **Upload a PDF**: Use the `/v1/pdf` endpoint to upload a PDF file and receive a `pdf_id`.
 3. **Query the PDF**: Use the `/v1/pdf/{pdf_id}` endpoint to ask a question about the content of the uploaded PDF. The response will be generated using the Gemini API. Answers are cached for faster subsequent queries for 24 hours. If same query is asked within 24 hours, the response will be fetched from cache.
 
-## Configuring Constants for Gemini API Responses
-In the `constant.py` file, you can modify the parameters to adjust the behavior of the Gemini API and the chatbot’s responses. Here’s how each section works:
+## Configuration for Gemini API Responses
+In the `/core/config.py` file, you can modify the parameters to adjust the behavior of the Gemini API and the chatbot’s responses. Here’s how each section works:
 - `TEXT_SIZE_LIMIT_MB`: The maximum size of the PDF file that can be uploaded. By default, it's set to 5MB. If you want to increase or decrease the limit, simply change the value(plaase note that gemini-flash model has 1 million token limit. So input size may be exceeded for very large files, and as the size increases, the time it takes to receive a response will take longer ):
 ```
 TEXT_SIZE_LIMIT_MB = 10 # For 10MB limit
