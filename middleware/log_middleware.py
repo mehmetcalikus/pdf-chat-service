@@ -1,7 +1,6 @@
 import time
-from time import process_time
 
-from logger import logger
+from utils.logger import logger
 from starlette.requests import Request
 from starlette.responses import Response
 from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint

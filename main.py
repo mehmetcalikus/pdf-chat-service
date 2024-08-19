@@ -12,11 +12,11 @@ from fastapi.responses import JSONResponse
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from google.api_core.exceptions import InvalidArgument, DeadlineExceeded, ResourceExhausted
 
-from constants import *
-from pdf_structure import PDF
-from middleware import LogMiddleware
+from core.config import *
+from models.pdf_structure import PDF
+from middleware.log_middleware import LogMiddleware
 from utils.redis_helpers import RedisHelper
-from logger import logger
+from utils.logger import logger
 
 from dotenv import load_dotenv
 app = FastAPI()
