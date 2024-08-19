@@ -46,3 +46,6 @@ dump.rdb
 
 # Uvicorn logs
 *.log
+
+#ide files
+.idea/
