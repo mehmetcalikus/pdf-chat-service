@@ -29,8 +29,8 @@ This project is a FastAPI-based web service that allows users to upload PDF docu
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+https://github.com/mehmetcalikus/pdf-chat-service.git
+cd pdf-chat-service
 ```
 
 ### Create a virtual environment:
